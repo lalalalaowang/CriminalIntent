@@ -19,5 +19,6 @@ public class MainActivity extends AppCompatActivity {
             fragment = new CrimeFragment();
             fragmentManager.beginTransaction().add(R.id.fragment_main,fragment).commit();
         }
+        
     }
 }
